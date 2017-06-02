@@ -47,7 +47,7 @@ Then restart the SSH service:
 
 Grader will now need to use the following command to login to the server:
 
-`ssh grader@35.162.241.191 -p 2200 -i ~/.ssh/linuxCourse`
+`ssh grader@52.40.111.252 -p 2200 -i ~/.ssh/linuxCourse`
 
 ## Configuration Uncomplicated Firewall (UFW)
 By default, block all incoming connections on all ports:
@@ -79,6 +79,8 @@ To check the status of the firewall, use:
 `sudo ufw status`
 
 ## Install Apache to serve a Python mod_wsgi application
+I used [this site](https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps) to get through this part of the process.
+
 Install Apache:
 
 `sudo apt-get install apache2`
@@ -109,7 +111,7 @@ sudo python database_setup.py
 sudo python lotsofgames.py
 ```
 
-The Ubuntu documentation page on [PostgreSQL][3] was helpful.
+I also referenced the Ubuntu documentation page on [PostgreSQL][3] was helpful.
 
 ## Installed various requirements within a virtual environment
 ```
@@ -119,6 +121,7 @@ sudo pip install oauth2client
 sudo pip install requests
 sudo pip install httplib2
 sudo pip install Flask
+sudo pip install postgresql
 ```
 
 An alternative to installing system-wide python modules is to create a virtual
