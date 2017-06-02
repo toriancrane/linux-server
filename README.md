@@ -5,7 +5,7 @@ IP address: `52.40.111.252`
 
 SSH port: `2200`
 
-URL: 
+URL: `http://52.40.111.252`
 
 # Configuration changes
 
