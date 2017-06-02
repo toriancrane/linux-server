@@ -1,7 +1,7 @@
 # Linux Server (hosting Wild Game Catalog)
 
 # Server details
-IP address: `35.162.241.191`
+IP address: `52.40.111.252`
 
 SSH port: `2200`
 
