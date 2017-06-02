@@ -111,7 +111,7 @@ sudo python database_setup.py
 sudo python lotsofgames.py
 ```
 
-I also referenced the Ubuntu documentation page on [PostgreSQL][3] was helpful.
+I also referenced the Ubuntu documentation page on PostgreSQL.
 
 ## Installed various requirements within a virtual environment
 ```
@@ -123,9 +123,6 @@ sudo pip install httplib2
 sudo pip install Flask
 sudo pip install postgresql
 ```
-
-An alternative to installing system-wide python modules is to create a virtual
-environment for each application using the [virualenv][4] package.
 
 ## Installed Git version control software
 `sudo apt-get install git`
@@ -146,6 +143,4 @@ Entered the IP address into the Google Developers Console -> API Manager
 To serve the catalog app using the Apache web server, a virtual host configuration file
 needs to be created in the directory `/etc/apache2/sites-available/`, in this case called
 `WildApp.conf`.
-
-Documentation for the WSGI parameters can be found [here][5].
 
